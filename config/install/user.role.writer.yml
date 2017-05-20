@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: writer
+label: Writer
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'create page content'
+  - 'create url aliases'
+  - 'edit own page content'
+  - 'use text format full_html'
+  - 'view own unpublished content'
+  - 'view the administration theme'

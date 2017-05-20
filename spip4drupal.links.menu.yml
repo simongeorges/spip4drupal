@@ -1,0 +1,26 @@
+spip4drupal.change_logo:
+  title: 'Change logo'
+  route_name: system.theme_settings
+  weight: 0
+  menu_name: spip-start-menu
+spip4drupal.my_drupal_website:
+  title: 'My Drupal website'
+  route_name: system.site_information_settings
+  weight: 1
+  menu_name: spip-start-menu
+spip4drupal.administer_sitemap:
+  title: 'Administer sitemap'
+  route_name: entity.menu.edit_form
+  weight: 2
+  menu_name: spip-start-menu
+  route_parameters: { menu: 'main' }
+spip4drupal.add_content:
+  title: 'Add content'
+  route_name: node.add_page
+  weight: 3
+  menu_name: spip-start-menu
+spip4drupal.add_user:
+  title: 'Add user'
+  route_name: user.admin_create
+  weight: 4
+  menu_name: spip-start-menu

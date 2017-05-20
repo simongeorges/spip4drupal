@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: spip-start-menu
+label: 'Spip Start Menu'
+description: ''
+locked: false

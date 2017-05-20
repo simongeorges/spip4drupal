@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lire_sur_le_web
+    - node.type.breve
+  module:
+    - link
+id: node.breve.field_lire_sur_le_web
+field_name: field_lire_sur_le_web
+entity_type: node
+bundle: breve
+label: 'Lire sur le web'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

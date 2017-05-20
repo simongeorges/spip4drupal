@@ -1,0 +1,7 @@
+spip4drupal.ecrire:
+  path: '/ecrire'
+  defaults:
+    _title: 'Ecrire'
+    _controller: '\Drupal\spip4drupal\Controller\SpipController::dashboard'
+  requirements:
+    role: 'Administrator'

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.breves
+  module:
+    - views
+  theme:
+    - bartik
+id: breves
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:breves-block_1'
+settings:
+  id: 'views_block:breves-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
